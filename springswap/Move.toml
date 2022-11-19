@@ -1,0 +1,13 @@
+[package]
+name = 'Springswap'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = '792c9c428b21bc21cee7e3a08231396571016592'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+std = "0x1"
+aptos_std = "0x1"
+aptos_framework = "0x1"
+spring_swap = "0x1e836c5da93612547c40d3448d268494e31ac8f063ee163d562b86095dd1318f"
