@@ -1,8 +1,5 @@
 #  swap
-- 通俗的讲就是把一个币换成另外一个币
+- USDC<->USDT, swap rate is 1:1
 
-# pool 外汇储备
-
-# 还差什么
-- 测试
-- 事件
+# pool 
+token exchange reserves
