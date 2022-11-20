@@ -1,6 +1,8 @@
 [package]
 name = 'Springswap'
 version = '1.0.0'
+upgrade_policy = "compatible"
+
 [dependencies.AptosFramework]
 git = 'https://github.com/aptos-labs/aptos-core.git'
 rev = '792c9c428b21bc21cee7e3a08231396571016592'

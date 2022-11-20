@@ -1,6 +1,8 @@
 [package]
 name = 'Springcoin'
 version = '1.0.0'
+upgrade_policy = "compatible"
+
 [dependencies.AptosFramework]
 git = 'https://github.com/aptos-labs/aptos-core.git'
 rev = '792c9c428b21bc21cee7e3a08231396571016592'
@@ -10,4 +12,4 @@ subdir = 'aptos-move/framework/aptos-framework'
 std = "0x1"
 aptos_std = "0x1"
 aptos_framework = "0x1"
-spring_coin = "0xb00e9e309443456360395130e397cc8cb066308ef513532ffc2bb7f683b71f43"
+spring_coin = "0x764c516b5e8fe2e09281686a2d6e3de5d314f65dc2bbdec78431f18414d5ac15"
